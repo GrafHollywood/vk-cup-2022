@@ -1,12 +1,18 @@
 import React from 'react';
 import styles from './App.module.css';
 import { Header } from '../components/header/Header';
+import { Sidenav } from '../components/sidenav/Sidenav';
+import { LetterList } from '../components/letter-list/LetterList';
 
 function App() {
   return (
-    <div className={styles['App']}>
+    <>
       <Header />
-    </div>
+      <main className={styles['content']}>
+        <Sidenav />
+        <LetterList />
+      </main>
+    </>
   );
 }
 
