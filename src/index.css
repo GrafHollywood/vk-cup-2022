@@ -12,3 +12,7 @@ body {
   font-family: 'Arial';
   background: #f6f7f8;
 }
+
+#root {
+  height: 100%;
+}
