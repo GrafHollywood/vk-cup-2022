@@ -6,13 +6,13 @@ export const Sidenav = () => {
   return (
     <aside className={styles['sidenav']}>
       <Button text="Написать письмо" />
-      <FolderButton text="Входящие" active />
-      <FolderButton text="Важное" />
-      <FolderButton text="Отправленные" />
-      <FolderButton text="Черновики" />
-      <FolderButton text="Архив" />
-      <FolderButton text="Спам" />
-      <FolderButton text="Корзина" />
+      <FolderButton text="Входящие" active icon="inbox" />
+      <FolderButton text="Важное" icon="folder" />
+      <FolderButton text="Отправленные" icon="sent" />
+      <FolderButton text="Черновики" icon="draft" />
+      <FolderButton text="Архив" icon="archive" />
+      <FolderButton text="Спам" icon="spam" />
+      <FolderButton text="Корзина" icon="trash" />
     </aside>
   );
 };
