@@ -5,3 +5,9 @@
   padding-left: 0;
   flex-grow: 1;
 }
+
+.list-container {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
