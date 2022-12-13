@@ -14,7 +14,7 @@ export const FolderButton = ({
   const buttonClass = `${styles['button']} ${
     active ? styles['button-active'] : styles['button-idle']
   }`;
-  const iconSrс = `icons/icon-${props.icon}.svg`;
+  const iconSrс = `icons/folders/icon-${props.icon}.svg`;
   return (
     <button className={buttonClass}>
       <img src={iconSrс} />

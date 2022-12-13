@@ -6,11 +6,12 @@ export interface ILetter {
   folder?: TFolders;
   text: string;
   title: string;
-  date: Date;
+  date: string;
   important: boolean;
   read: boolean;
   bookmark: boolean;
   doc?: IDocument;
+  flag?: TFlags;
   to: IUser[];
 }
 
@@ -21,3 +22,13 @@ export type TFolders =
   | 'Архив'
   | 'Спам'
   | 'Корзина';
+
+export type TFlags =
+  | 'Рассылки'
+  | 'Социальные сети'
+  | 'Путешевствия'
+  | 'Билеты'
+  | 'Финансы'
+  | 'Регистрации'
+  | 'Заказы'
+  | 'Штрафы и налоги';
